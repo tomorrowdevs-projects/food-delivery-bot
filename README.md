@@ -1,34 +1,12 @@
- Create an onboarding process using the attached mockup file.
+Create a Telegram Bot for a Food Delivery service
 ===============================
-
-![preview](https://github.com/tomorrowdevs-projects/user-onboarding/blob/main/preview.png "preview")
-
-## Download here the [Figma Mockup](https://github.com/tomorrowdevs-projects/user-onboarding/blob/main/User_onboarding.fig)
 
 Requirements:
 ----------------
-- Respect exactly the provided layout
-- Deploy the project towards Netlify (www.netlify.com) connected to your GitHub Repo
-- The form should be validated and should prompt success or error messages
-- Error messages should be provided on each field
-
-Level 1:
-----------------
-- Start the project using ReactJs
-- Implement all the components and layouts
-- Provide a validation for each field
-- Use state to store temporary values and show the steps
-- Write tests for each single validation
-
-Level 2:
-----------------
-- Use react-router to navigate between the steps
-- Find a strategy to save temporary values (eg. Context, Redux, LocalStorage)
-
-Level 3:
-----------------
-- Save results with Strapi (https://strapi.io)
-- Show a loader while calling the api and provide a feedback for success or error messages
+1. The user should be guided through the Menu by using Telegram inputs or buttons
+2. Once the order is placed, the bot should answer with the total amount of the order
+3. The user should send his position by using the position item
+4. Given the distance between the Restaurant and the user, the bot should answer with the amount of time needed.
 
 Before starting any of the tasks in this Learning Path, please READ the following rules
 ===============================
@@ -39,7 +17,6 @@ What do you need to start this Learning Path:
 3. A Local IDE or Editor
 5. Git Environment
 6. A http://toggl.com/ account and Chrome Extension
-7. A Netlify account
 
 Rules that you MUST follow:
 ----------------
